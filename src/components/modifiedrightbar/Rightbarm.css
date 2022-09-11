@@ -1,0 +1,129 @@
+.rightbarmcontainer{
+
+  width:20%;
+}
+
+.rightbarmcontainer p{
+  margin-left: 5%;
+}
+
+.rightbarmcontainer span{
+font-weight: 700;
+
+
+}
+
+.containerimage{
+  width:40px;
+  
+  border-radius: 70%;
+
+}
+
+.top{
+  display: flex;
+  margin-top: 20px;
+}
+
+.second img{
+  width:90%;
+  margin-top: 13px;
+  margin-left: 20px;
+  border-radius:10px ;
+}
+
+.onlinefriends{
+  display: flex;
+  
+}
+
+.onlinefriends:hover{
+  background-color: rgb(201, 201, 201);
+}
+
+.onlinefriends p{
+  margin-top:4px ;
+  margin-left:4px ;
+}
+
+.icon{
+margin-left:5px ;
+}
+
+
+.third{
+margin-top: 50px;
+margin-bottom: 125px;
+}
+
+.online{
+  font-weight: 500;
+}
+
+.sidebar{
+  margin-top:50px ;
+ 
+}
+
+.n{
+  font-weight: 500;
+}
+.sidebar2{
+  margin-top:70px ;
+  
+  display: none;
+}
+.sidebaritem2{
+ margin-bottom: 16px;
+ display: flex;
+ row-gap:20px ;
+ 
+ padding: 5px 10px;
+}
+
+
+
+.sidebaritem2:hover{
+background-color: rgb(189, 189, 189);
+cursor: pointer;
+
+
+}
+
+
+
+
+
+@media screen and (max-width:1270px) {
+  
+.top p{
+font-size:11px ;
+}
+.second img{
+
+  width:70%
+}
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width:860px){
+  .sidebar{
+   display: none;
+   
+  }
+
+
+.sidebar2{
+  display:contents;
+}
+
+
+
+}

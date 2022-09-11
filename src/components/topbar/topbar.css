@@ -1,0 +1,256 @@
+.topbarContainer {
+  height: 50px;
+  width: 100%;
+  background-color: #017911;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarLeft {
+  flex: 3;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.topbarCenter {
+  flex: 5;
+}
+
+.searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  min-width: 80px;
+}
+
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+}
+
+.searchInput {
+  border: none;
+  width: 70%;
+ 
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.topbarLink {
+  margin-right: 18px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: .15s;
+}
+
+
+.linkk{
+text-decoration:none;
+color:rgb(231, 231, 231) ;
+
+}
+
+.topbarLink:hover{
+  color: rgb(61, 61, 61);
+}
+
+
+
+.topbarIcons {
+  display: flex;
+}
+
+.topbarIconItem {
+  margin-right: 35px;
+  cursor: pointer;
+  position: relative;
+}
+
+
+.hovereffect{
+  position: absolute;
+  width: 14px;
+  height:16px;
+  top:3px;
+  cursor: pointer;
+  font-size:0.2px ;
+  left: 4px;
+ transition: .15s;
+  color:transparent;
+  background-color:transparent;
+}
+
+.hovereffect span{
+  font-weight: 700;
+  font-size:10px ;
+  margin-left: 7px;
+  margin-top:-15px ;
+}
+
+.hovereffect p{
+font-size: 10px;
+margin-top: -2px;
+margin-left: 5px;
+
+
+}
+#icon{
+margin-top: 8px;
+}
+
+.hovereffect:hover{
+  background-color: rgb(66, 66, 66);
+  color:black;
+  font-weight: 500;
+  color:rgb(255, 255, 255);
+  font-size: 8px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+width:100px;
+height: 50px;
+left: -60px;
+border-radius: 5px;
+
+
+}
+
+
+
+
+
+.topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.topbarImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+
+#personicon{
+ position: relative;
+}
+
+
+
+
+.personiconhover{
+  border:2px solid red ;
+  position: absolute;
+  width:100px ;
+  height:60px ;
+  left:-60px;
+  top:23px;
+  
+}
+
+
+
+@media  screen and (max-width:1270px) {
+  
+  
+  .topbarLink{
+
+margin-right: 10px;
+font-size: 14px;
+  }
+
+.topbarLinks{
+  margin-right: 150px;
+}
+
+ .searchbar{
+  
+  width:80% ;
+ }
+
+
+
+ .searchInput{
+  width:80% ;
+ }
+}
+
+
+@media  screen and (max-width:902px) {
+ 
+.searchbar{
+  display: none;
+}
+
+.topbarLinks{
+  margin-right:25px;
+}
+
+
+
+
+}
+
+@media  screen and (max-width:673px) {
+ 
+  .searchbar{
+    display: none;
+  }
+  
+  
+  
+  
+  
+  
+  }
+
+
+  @media  screen and (max-width:516px) {
+ 
+    .topbarLink{
+
+      margin-right: 6px;
+      font-size: 11px;
+        }
+    
+    
+    
+    
+    
+    
+    }
+
+
+

@@ -1,0 +1,13 @@
+.feed{
+  flex:5.5;
+  cursor:pointer;
+}
+
+.feedWrapper{
+  padding: 20px;
+}
+
+
+.thepost{
+  width:2000px;
+}
