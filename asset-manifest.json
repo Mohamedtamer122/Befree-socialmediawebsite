@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Befree-socialmediawebsite/static/css/main.baa85c67.css",
-    "main.js": "/Befree-socialmediawebsite/static/js/main.2c33a29c.js",
+    "main.js": "/Befree-socialmediawebsite/static/js/main.9ed4d0cd.js",
     "static/media/profilebackgroundimages.jpg": "/Befree-socialmediawebsite/static/media/profilebackgroundimages.0c2353ca995316f9d0e1.jpg",
     "static/media/person1.jpg": "/Befree-socialmediawebsite/static/media/person1.f5ed3732073a59921de0.jpg",
     "static/media/person6.jpg": "/Befree-socialmediawebsite/static/media/person6.52969350dbb54cb16a6a.jpg",
@@ -12,10 +12,10 @@
     "static/media/person5.jpg": "/Befree-socialmediawebsite/static/media/person5.a86f0d76faf5493e3a85.jpg",
     "index.html": "/Befree-socialmediawebsite/index.html",
     "main.baa85c67.css.map": "/Befree-socialmediawebsite/static/css/main.baa85c67.css.map",
-    "main.2c33a29c.js.map": "/Befree-socialmediawebsite/static/js/main.2c33a29c.js.map"
+    "main.9ed4d0cd.js.map": "/Befree-socialmediawebsite/static/js/main.9ed4d0cd.js.map"
   },
   "entrypoints": [
     "static/css/main.baa85c67.css",
-    "static/js/main.2c33a29c.js"
+    "static/js/main.9ed4d0cd.js"
   ]
 }
